@@ -1,7 +1,7 @@
 import getAllPosts from "@/utility/getAllPost";
 import Link from "next/link";
 
-export default async function Home() {
+export default async function Blog() {
   const posts = await getAllPosts();
   return (
     <main>
